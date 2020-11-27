@@ -1,0 +1,43 @@
+body{
+  background-color: #808080;
+  font-family: Arial, "Helvetic Neue", Helvetic, serif;
+  font-size:18px;
+  color:black;
+
+}
+#table1 {
+padding:18px;
+}
+#table2  {
+  border-color:#191970;
+  padding:7px;
+}
+#tablecontact{
+  width:1000px;
+  border-width:6px;
+  border-color:#191970;
+  border-style: dotted;
+}
+a:hover{
+            font-size:18px;
+        }
+.h1name{
+  color:blue;
+  text-shadow:-5px 4px 2px white;
+}
+h1 {
+color:#191970;
+text-shadow:-2px 1.5px 1px black;
+}
+h2{
+  color:blue;
+}
+hr {
+	border-style: dotted;
+  border-width: 5px;
+	color: blue;
+  width: 200px;
+}
+div{
+  background-image: url(https://u.kanobu.ru/editor/images/18/6e72c3a8-6a70-438e-8ec8-739d03472d47.jpg);
+}
