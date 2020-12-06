@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>responsive-flex</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/windows/32/000000/telegram-app.png"/>
+  </head>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+
+nav{
+  height: 80px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+header{
+  height: 70vh;
+  background-image: url(bmw.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+section{
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: auto;
+
+}
+/*#container1{
+  display: flex;
+  flex-direction: row;
+  height: 9.1vh;
+  margin: 0 0 0 0;*/
+}
+.logo {
+height: 80px;
+width: 80px;
+margin-left: 1vw;
+padding-top: 0.6vh;
+}
+.x{
+  height: 80px;
+  width: 80px;
+
+}
+.personalSite {
+  position: absolute;
+  left: 15vw;
+  margin-left: 4vw;
+  padding-top: 1vh;
+}
+.parallax {
+  position: absolute;
+  left:60vw;
+  margin-left: 10vw;
+  padding-top: 1vh;
+}
+h2{
+  font-family:Courier, monospace;
+  font-size: 3vh;
+  color:white;
+  font-weight: 200;
+}
+A {
+    color: black;
+    text-decoration: none;
+   }
+   A:visited {
+    color: black;
+   }
+   A:active {
+    color: blue;
+   }
+.BMWh1{
+  position: absolute;
+  right: 5vw;
+  top: 30vh;
+  font-family:Courier, monospace;
+  font-size: 3vw;
+  color: white;
+  font-weight: 200;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text1{
+  text-align: center;
+  height: 38vh;
+  width: 40vw;
+  margin-bottom: 10vh;
+  margin-top: 2vh;
+
+}
+.discrname{
+  font-family:Courier, monospace;
+  font-size: 2vw;
+  color:white
+}
+.discr{
+  padding-top: 2vh;
+  font-family:Courier, monospace;
+  font-size: 1.3vw;
+  color:white;
+  font-weight: 200;
+}
+.div1{
+  height: 40vh;
+  width: 30vw;
+  border-radius: 2vw;
+}
+.div2{
+  height: 40vh;
+  width: 30vw;
+  border-radius: 2vw;
+}
+#main2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.div3{
+  height: 15vh;
+  width: 35vw;
+  color: white;
+}
+.div4{
+  height: 15vh;
+  width: 35vw;
+  color: white;
+}
+.discrname1{
+color: white;
+font-size: 1.6vw;
+}
+.discr2{
+  font-family:Courier, monospace;
+  font-size:10vw;
+  padding-top:1vh;
+  color: white;
+  font-weight: 200;
+}
+#main3{
+margin-top: 60vh;
+height: 5vh;
+background-color: gray;
+align-items: center;
+text-align: center;
+}
+.discrname2{
+  font-family:Courier, monospace;
+  font-size: 2vh;
+  padding-top:1.5vh;
+  color: black;
+  font-weight: 200;
+}
+footer{
+  height: 7vh;
+  background-color: black;
+  align-items: center;
+  text-align: center;
+}
+.discrname3{
+  font-family:Courier, monospace;
+  font-size: 1.5vh;
+  padding-top:1.5vh;
+  color: white;
+  font-weight: 200;
+}
+@media (max-width:1000px) {
+  .BMWh1 {
+    font-size: 60px;
+  }
+  #main2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .discr2{
+    width:400px;
+  }
+  .div1{
+    height: 300px;
+    width: 400px;
+  }
+  .div2{
+    height: 300px;
+    width: 400px;
+
+  }
+  .div3{
+    width: 400px;
+    margin-bottom:400px;
+  }
+  .div4{
+    width: 400px;
+    margin-bottom:400px;
+  }
+  .discrname{
+    font-size: 3vw;
+    color:white
+  }
+  .discr{
+    font-size: 2vw;
+  }
+  .discrname1{
+    font-size: 3vw;
+  }
+}
+
+}
+</style>
+  <body>
+    <nav>
+    <div class="logo"> <a href="https://www.youtube.com/watch?v=8mC6WDgblKI&ab_channel=%D0%98%D0%B2%D0%B0%D0%BD%D0%9A%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D0%BB%D0%BE%D0%B2"><img class="x"src="logo.png" alt=""></a> </div>
+    <div class="personalSite"> <a href="index.html"><h2>Personal Site</h2></a></div>
+    <div class="parallax"> <a href="parallax.html"><h2>Parallax</h2></a></div>
+    </nav>
+<header>
+  <h1 class="BMWh1">THE 5 <br> ОСОБЕННОСТИ BMW 5 СЕРИИ</h1>
+</header>
+<section>
+  <div class="flex-center">
+  <div class="text1">
+    <h2 class="discrname">ОСОБЕННОСТИ BMW 5 СЕРИИ</h2>
+    <p class="discr">В BMW 5 серии воплощены представления передовых специалистов современного автомобилестроения о том, каким должен быть седан бизнес-класса.
+      Ему свойственны традиционно атлетичные формы, динамичный силуэт, лаконизм дизайна.
+      В элегантном внешнем облике доминируют гладкие поверхности, соединяющиеся с четко очерченными контурами.
+      Интерьер, насыщенный технологическими инновациями, по-спортивному изыскан и функционален.</p>
+  </div>
+  </div>
+  <div id="main2">
+<div class="div3">
+<p class="discr2"><img class="div1"src="bwm2.jpg" alt=""><h2 class="discrname1">ДИЗАЙН BMW</h2> <br>BMW 5 серии смотрится невероятно элегантно и статусно, чему способствует облик боковой и задней частей кузова. Каждая деталь,
+  включая патрубки выхлопной системы, получившие трапециевидную форму и интегрированные в задний бампер, служит формированию гармоничного, стильного и спортивного образа.</p>
+</div>
+  <div class="div4">
+  <p class="discr2"><img class="div2"src="bwm1.jpg" alt=""><h2 class="discrname1">ТЕХНОЛОГИИ BMW</h2> <br>Технологии,воплощены в современных системах помощи водителю и цифровых сервисах. Инновационные и медиа-функции позволяют сохранять
+    связь с миром, получая любую полезную, важную или развлекающую информацию. Движение на высоких скоростях никогда еще не проходило так спокойно и беззаботно.</p>
+    </div>
+  </div>
+</section>
+<div id="main3">
+  <p class="discrname2">Official site of BMW</p>
+</div>
+<footer>
+  <p class="discrname3">Copyright © VladKostiuk (BMW) 2020  Все права защищены</p>
+</footer>
+  </body>
+</html>
