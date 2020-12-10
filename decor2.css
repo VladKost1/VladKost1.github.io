@@ -1,0 +1,69 @@
+.body{
+  background-color:#CCEBF7;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text1{
+  text-align: center;
+  height: 20vh;
+  width: 70vw;
+  margin-top: 4vh;
+
+}
+.discrname{
+  font-size: 1.2vw;
+  color:#494C4D;
+}
+.discr{
+  padding-top: 1.5vh;
+  font-size: 1vw;
+  color:#494C4D;
+}
+.card-group{
+  text-align: center;
+}
+.card-body{
+    background-color:#CCEBF7;
+}
+.Knopka{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+#main3{
+margin-top: 10vh;
+height: 5vh;
+background-color: rgba(0,0,0,0.5);
+align-items: center;
+text-align: center;
+}
+.discrname2{
+  font-size: 1.2vh;
+  padding-top:1vh;
+  color: white;
+  font-weight: 200;
+}
+@media (max-width:1000px) {
+  .discrname {
+    font-size: 2.3vw;
+  }
+  .discr{
+    padding-top: 1.2vh;
+    font-size: 1.7vw;
+    color:black;
+}
+}
+@media (max-width:500px) {
+  .discrname {
+    font-size: 3vw;
+  }
+  .discr{
+    padding-top: 1.2vh;
+    font-size: 2.5vw;
+    color:black;
+}
+}

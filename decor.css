@@ -1,0 +1,92 @@
+.body{
+  margin: 0;
+  padding: 0;
+  background-color: #DECCC8;
+}
+header{
+  background-color: #DECCC8;
+  height: auto;
+}
+nav{
+  background-color: rgba(0,0,0,0.5);
+}
+section{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: auto;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text1{
+  text-align: center;
+  height: 27vh;
+  width: 40vw;
+  margin-bottom: 10vh;
+  margin-top: 4vh;
+
+}
+.discrname{
+  font-size: 1.4vw;
+  color:black
+}
+.discr{
+  padding-top: 2vh;
+  font-size: 1.2vw;
+  color:black;
+  font-weight: 200;
+}
+hr{
+  background-color: black;
+}
+a{
+  text-decoration: none;
+}
+.card-img-top{
+background-color: #DECCC8;
+}
+.card-deck{
+align-items: center;
+text-align: center;
+}
+.card{
+  border-style: solid;
+  border-color: black;
+}
+#main3{
+margin-top: 30vh;
+height: 5vh;
+background-color: rgba(0,0,0,0.5);
+align-items: center;
+text-align: center;
+}
+.discrname2{
+  font-size: 1.2vh;
+  padding-top:1vh;
+  color: white;
+  font-weight: 200;
+}
+
+@media (max-width:1000px) {
+  .discrname{
+    font-size: 2.3vw;
+  }
+  .discr{
+    padding-top: 1.2vh;
+    font-size: 1.7vw;
+    color:black;
+}
+}
+@media (max-width:500px) {
+  .discrname {
+    font-size: 3vw;
+  }
+  .discr{
+    padding-top: 1.2vh;
+    font-size: 2.3vw;
+    color:black;
+}
